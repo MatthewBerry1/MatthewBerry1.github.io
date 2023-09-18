@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Don't B Homeless | Real Estate Agency</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Main Container -->
+    <div>
+      <!-- Header Section -->
+      <header>
+        <h1 class="headeraH1">Don't B Homeless | Real Estate Agency</h1>
+      </header>
+      <header>It's that easy!</header>
+      <!-- Navigation Section -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services We Can Provide</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="tasks.html">Tasks</a></li>
+        </ul>
+      </nav>
+
+      <!-- Banner Section -->
+      <section class="banner-container">
+        <img
+          src="/Users/matthew/Downloads/UniCW/types-of-houses-feb18.jpg"
+          alt="Illustrative banner of home destinations"
+          class="centered-banner"
+        />
+      </section>
+
+      <!-- Main Content Section -->
+      <main class="services">
+        <!-- About Us -->
+        <section>
+          <h1>Our origins</h1>
+          <p>
+            Every man and woman has a dream to one day have their own special
+            place that they can call home.
+            <b>Don't B Homeless | Real Estate Agency</b> was born out of a
+            shared mission to help others acheive their dream home.
+          </p>
+          <p>We provide nothing but the best services to our clients.</p>
+        </section>
+
+        <!-- Our Services -->
+        <section>
+          <h2>Our Services</h2>
+          <div class="services-container">
+            <div class="service-column">
+              <img
+                src="/Users/matthew/Downloads/UniCW/107074389-1654891784999-gettyimages-1401350625-dsc09668.jpeg"
+                alt="Illustration representing the purchase of an Estate"
+              />
+              <h3>Location and bookings with our Real Estate Agents</h3>
+              <p>
+                One of the primary services offered by Real Estate agencies is
+                providing you will all the best options.
+              </p>
+            </div>
+
+            <div class="service-column">
+              <img
+                src="/Users/matthew/Downloads/UniCW/download (3).jpeg"
+                alt="Illustration of a mansion"
+              />
+              <h3>Property Meetups</h3>
+              <p>
+                Real Estate agencies have partnerships and affiliations with a
+                wide range of properties to be able to offer customized tours of
+                any property they want to look at to suit the preferences of
+                clients.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section>
+          <h2>Pricing</h2>
+          <p>Please contact us for pricing information on our services.</p>
+          <div class="service-column">
+            <img
+              src="/Users/matthew/Downloads/UniCW/Poor.jpeg"
+              alt="Illustration representing the inability to not be Homeless"
+            />
+          </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-container">
+          <h2>Ready to Experience Our Services?</h2>
+          <p>
+            Join us today on our following media accounts and discover the
+            difference we can make for you!
+          </p>
+          <a href="contact.html" class="cta-button">Contact Us Now</a>
+        </section>
+      </main>
+
+      <!-- Footer Section -->
+      <footer>
+        <img
+          src="/Users/matthew/Downloads/UniCW/PHOTO-2023-09-17-15-11-50.jpg"
+        />
+        <ul>
+          <li><a href="https://www.facebook.com/">Facebook</a></li>
+          <li><a href="https://twitter.com/">Twitter</a></li>
+          <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+        <p>
+          &copy; 2024 Don't B Homeless | Real Estate Agency. All rights
+          reserved.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
