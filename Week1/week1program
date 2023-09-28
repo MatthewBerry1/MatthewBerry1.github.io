@@ -17,11 +17,12 @@
         </h1>
       </header>
       <header>It's that easy!</header>
+
       <!-- Navigation Section -->
       <nav>
         <ul>
           <li>
-            <a href="index.html"><mark>Home Page</mark></a>
+            <a href="index.html">Home Page</a>
           </li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="services.html">Services We Can Provide</a></li>
