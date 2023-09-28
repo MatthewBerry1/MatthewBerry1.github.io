@@ -12,13 +12,17 @@
     <div>
       <!-- Header Section -->
       <header>
-        <h1 class="headeraH1">Don't B Homeless | Real Estate Agency</h1>
+        <h1 class="headeraH1" id="stickyHeader">
+          Don't B Homeless | Real Estate Agency
+        </h1>
       </header>
       <header>It's that easy!</header>
       <!-- Navigation Section -->
       <nav>
         <ul>
-          <li><a href="index.html">Home Page</a></li>
+          <li>
+            <a href="index.html"><mark>Home Page</mark></a>
+          </li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="services.html">Services We Can Provide</a></li>
           <li><a href="gallery.html">Gallery</a></li>
@@ -41,13 +45,15 @@
         <!-- About Us -->
         <section>
           <h1>Our origins</h1>
-          <p>
+          <p style="font-family: Roboto">
             Every man and woman has a dream to one day have their own special
             place that they can call home.
             <b>Don't B Homeless | Real Estate Agency</b> was born out of a
             shared mission to help others acheive their dream home.
           </p>
-          <p>We provide nothing but the best services to our clients.</p>
+          <p style="font-family: Roboto">
+            We provide nothing but the best services to our clients.
+          </p>
         </section>
 
         <!-- Our Services -->
@@ -60,7 +66,7 @@
                 alt="Illustration representing the purchase of an Estate"
               />
               <h3>Location and bookings with our Real Estate Agents</h3>
-              <p>
+              <p style="font-family: Roboto">
                 One of the primary services offered by Real Estate agencies is
                 providing you will all the best options.
               </p>
@@ -72,7 +78,7 @@
                 alt="Illustration of a mansion"
               />
               <h3>Property Meetups</h3>
-              <p>
+              <p style="font-family: Roboto">
                 Real Estate agencies have partnerships and affiliations with a
                 wide range of properties to be able to offer customized tours of
                 any property they want to look at to suit the preferences of
@@ -85,7 +91,9 @@
         <!-- Pricing Section -->
         <section>
           <h2>Pricing</h2>
-          <p>Please contact us for pricing information on our services.</p>
+          <p style="font-family: Roboto">
+            Please contact us for pricing information on our services.
+          </p>
           <div class="service-column">
             <img
               src="/Users/matthew/Downloads/UniCW/Poor.jpeg"
@@ -97,7 +105,7 @@
         <!-- Call to Action -->
         <section class="cta-container">
           <h2>Ready to Experience Our Services?</h2>
-          <p>
+          <p style="font-family: Roboto">
             Join us today on our following media accounts and discover the
             difference we can make for you!
           </p>
