@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 /* Reset Styles */
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+
   color: #505050;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Header Styles */
@@ -37,6 +40,12 @@ header {
 }
 
 /* Navigation Styles */
+
+nav {
+  position: sticky;
+  top: 0px;
+}
+
 nav ul {
   background-color: #333;
   color: #fff;
@@ -192,4 +201,12 @@ footer a:hover {
 
 footer p {
   margin: 10px 0 0;
+}
+
+.highlightLists {
+  color: aqua;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
 }
