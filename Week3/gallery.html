@@ -19,7 +19,12 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
       }
     </style>
+    
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+
   </head>
   <body>
     <div>
@@ -40,18 +45,80 @@
       </nav>
 
       <main class="services">
+       
         <h1>Gallery</h1>
 
-        <div class="gallery-container">
-          <img src="images/1.jpeg" alt="Spa Image 1" />
-          <img src="images/2.jpeg" alt="Spa Image 2" />
-          <img src="images/3.jpeg" alt="Spa Image 3" />
-          <img src="images/4.jpeg" alt="Spa Image 4" />
-          <img src="images/5.jpeg" alt="Spa Image 5" />
-          <img src="images/6.jpeg" alt="Spa Image 6" />
-          <img src="images/7.jpeg" alt="Spa Image 7" />
-          <img src="images/8.jpeg" alt="Spa Image 7" />
-        </div>
+<div class="slideshow-container">
+
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 8</div>
+    <img src="images/image(10).jpeg" style="width:100%">
+    <div class="text">1</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 8</div>
+    <img src="images/image (11).jpeg" style="width:100%">
+    <div class="text">2</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 8</div>
+    <img src="images/image (12).jpeg" style="width:100%">
+    <div class="text">3</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 8</div>
+    <img src="images/image (13).jpeg" style="width:100%">
+    <div class="text">4</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 8</div>
+    <img src="images/image (14).jpeg" style="width:100%">
+    <div class="text">5</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 8</div>
+    <img src="images/image (15).jpeg" style="width:100%">
+    <div class="text">6</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 8</div>
+    <img src="images/image (16).jpeg" style="width:100%">
+    <div class="text">7</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 8</div>
+    <img src="images/image (17).jpeg" style="width:100%">
+    <div class="text">8</div>
+  </div>
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+</div>
+
+       
+      
         <!-- Call to Action -->
         <section class="cta-container">
           <h2>Ready to Experience Our Services?</h2>
@@ -71,5 +138,6 @@
         </p>
       </footer>
     </div>
+    <script src = "script.js"> </script>
   </body>
 </html>
