@@ -363,3 +363,115 @@ footer p {
 
 }
 
+.error {
+  color: red;
+}
+.valid {
+  border: 1px solid green;
+}
+
+
+#form {
+ 
+  width: 300px;
+ 
+  margin: 10vh auto 0 auto; 
+ 
+  padding: 20px;
+ 
+  background-color: whitesmoke; 
+ 
+  border-radius: 4px; 
+ 
+  font-size: 12px;
+
+}
+
+
+#form h1 {
+ 
+  color: #0f2027; 
+  
+  text-align: center; 
+
+}
+
+
+#form button {
+  
+  padding: 15px;
+  
+  margin-top: 15px; 
+  
+  width: 100%; 
+  
+  color: white; 
+  
+  background-color: #0056b3; 
+  
+  border: none; 
+  
+  border-radius: 5px;
+
+}
+
+
+.input-control {
+
+  width: 90%;
+
+  display: flex;
+
+  flex-direction: column; 
+
+}
+
+
+.input-control input {
+
+  border: 4px solid white; 
+
+  border-radius: 4px; 
+
+  display: block; 
+
+  font-size: 12px; 
+
+  padding: 10px; 
+
+  width: 100%; 
+
+}
+
+
+.input-control input:focus {
+
+  outline: 0; 
+
+}
+
+
+.input-control.success input {
+
+  border-color: #09c372; 
+
+}
+
+
+.input-control.error input {
+
+  border-color: #ff3860; 
+
+}
+
+
+.input-control .error {
+
+  color: #ff3860; 
+
+  font-size: 13px; 
+
+  height: 13px; 
+
+}
+
