@@ -3,7 +3,7 @@
          const form = document.getElementById("form");
     
     
-         form.addEventListener("submitButton", function (event) {
+         form.addEventListener("submit", function (event) {
        
             let valid = true;
         
